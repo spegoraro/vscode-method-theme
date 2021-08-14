@@ -1,0 +1,21 @@
+{
+    "name": "method-theme",
+    "displayName": "Method Theme",
+    "description": "Accesible theme conforming with WCAG AAA. Inspired by Modus Vivendi on Emacs.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Method Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Method Theme-color-theme.json"
+            }
+        ]
+    }
+}
